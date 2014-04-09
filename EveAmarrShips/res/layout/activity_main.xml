@@ -7,10 +7,24 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
+    
+    <ImageView 
+        android:id="@+id/ic_launcher"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/picture_of_"
+        android:src="@drawable/ic_launcher"  />/>
 
-    <TextView
+	 <TextView
+        android:id="@+id/space"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_marginLeft="35dp"
+        android:text="@+id/space"
+        android:textSize="25sp"/>
+
 
 </RelativeLayout>
